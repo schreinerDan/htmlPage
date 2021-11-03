@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Inconsolata', monospace;
+    color: rgb(238, 194, 17);
+    font-size: 18px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+}
+ul li{
+    position: relative;
+}
+li ul{
+    position: absolute;
+    left: 149px;
+    top: 0;
+    display: none;
+}
+ul li a{
+display: block;
+text-decoration: none;
+color: black;
+background: #fff;
+padding: 5px;
+border: 1px solid #ccc;
+
+}
+li:hover ul { display: block; }
+
+.sobre {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.sobree {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.nomee {
+    color: royalblue;
+}
+
+.foto {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
